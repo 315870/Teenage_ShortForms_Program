@@ -1,0 +1,24 @@
+﻿    <!-- Dominic Langowski
+        4/16/2020
+         Teenage Abbrivations Program-->
+    <Window x:Class="TeenageAbbreviations.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TeenageAbbreviations"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Label x:Name="lblTitle" Content="This is Vanity" FontSize="16"/>
+        <TextBox x:Name="txtInfo" Text="Tired of trying the understand teenagers... Millenials.. Profanity? Save your sanity and use VANITY!"/>
+        <Label></Label>
+        <Label></Label>
+        <TextBox x:Name="txtInput"></TextBox>
+        <Label></Label>
+        <Button x:Name="btnTranslate" Content="Translate" Background="BlanchedAlmond" Click="BtnTranslate_Click"/>
+        <Label></Label>
+        <Label x:Name="lblOutput"></Label>
+
+    </StackPanel>
+</Window>
